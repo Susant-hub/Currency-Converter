@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #99edfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 90vh;
+}
+.display {
+  background-color: white;
+  padding: 30px 2rem;
+  border-radius: 1rem;
+  font-family: poppins;
+  box-shadow: #888888 0px 10px 20px;
+}
+.amount-box {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin: 2rem 0;
+  font-size: 1rem;
+}
+.amount-box input {
+  margin-top: 0.75rem;
+  height: 1.5rem;
+  border-radius: 1 rem;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+select {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.display i {
+  font-size: 20px;
+  margin: 1rem 1rem;
+}
+.from,
+.to {
+  display: flex;
+  align-items: center;
+  border: gray 1px solid;
+  border-radius: 0.75rem;
+  max-height: 2.5rem;
+}
+.display select input button {
+  width: 100%;
+}
+.from img,
+.to img {
+  width: 2rem;
+}
+.submisson {
+  margin: 1rem 0;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.btn button {
+  width: 300px;
+  height: 2.25rem;
+  border: none;
+  background-color: #888888;
+  color: white;
+  font-size: 15px;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #666666;
+}

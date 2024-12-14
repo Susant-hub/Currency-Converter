@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="display">
+      <h1>Currency Converter</h1>
+      <div class="amount-box">
+        <h3>Enter the amount</h3>
+        <input type="number" value="0" />
+      </div>
+      <div class="dropdown">
+        <p>From</p>
+        <div class="from">
+          <img src="https://flagsapi.com/US/shiny/64.png" />
+          <select name="from" value=""></select>
+        </div>
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        <p>To</p>
+        <div class="to">
+          <img src="https://flagsapi.com/NP/shiny/64.png" />
+          <select name="to" value=""></select>
+        </div>
+      </div>
+      <div class="submisson"><p>Result here</p></div>
+      <div class="btn">
+        <button>Convert Currency</button>
+      </div>
+    </div>
+    <script src="countrycode.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
